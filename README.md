@@ -18,3 +18,16 @@ It demonstrates dimensionality reduction (PCA) and pattern classification (kNN) 
 Install dependencies:
 ```bash
 pip install numpy scikit-learn matplotlib joblib
+
+## How to run
+1. Clone this repo or open notebook in Google Colab
+
+2. Run:
+```bash
+python pca_knn_digits.py
+
+
+3. To switch dataset, set:
+```bash
+USE_MNIST = True   # for MNIST
+USE_MNIST = False  # for sklearn digits
